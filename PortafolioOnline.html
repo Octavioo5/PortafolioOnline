@@ -10,6 +10,7 @@
       margin: 0;
       padding: 0;
       background: #162456;
+      color: white;
     }
     header {
       background: #162456;
@@ -35,31 +36,112 @@
       border-left: 4px solid #333;
       background: #fafafa;
     }
+    .imagen-container {
+      text-align: center;
+      margin: 15px 0;
+    }
+    .imagen-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .video-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .video-container video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .section-dark {
+      background-color: #162456;
+      color: #BB4D1A;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .section-dark h2 {
+      color: #BB4D1A;
+      margin-top: 0;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Pc Ready</h1>
-    <p>Portafolio onilne </p>
+    <p>PORTAFOLIO ONLINE <br> Sergio Octavio Lopez Sainz 24040636</p>
   </header>
 
-  <section style="background-color:#162456; padding: 10px; color: #BB4D1A;">
-    <h2 style="background-color:#162456; padding: 10px; color: #BB4D1A;">Sobre mí</h2>
-    <p>
-      Sergio Octavio Lopez Sainz- 24040636 -J305
-    </p>
+  <section class="section-dark">
+    <h2>Esquema 3</h2>
+    <div class="imagen-container">
+      <img src="PNG/1.png" alt="Imagen del proyecto 1" />
+    </div>
+    <div class="imagen-container">
+      <img src="PNG/2.png" alt="Imagen del proyecto 2" />
+    </div>
+    <div class="imagen-container">
+      <img src="PNG/3.png" alt="Imagen del proyecto 3" />
+    </div>
+    <div class="imagen-container">
+      <img src="PNG/4.png" alt="Imagen del proyecto 4" />
+    </div>
+    <div class="imagen-container">
+      <img src="PNG/5.png" alt="Imagen del proyecto 5" />
+    </div>
+    <div class="imagen-container">
+      <img src="PNG/6.png" alt="Imagen del proyecto 6" />
+    </div>
+    <div class="imagen-container">
+      <img src="PNG/8.png" alt="Imagen del proyecto 8" />
+    </div>
   </section>
 
-  <section style="background-color:#162456; padding: 10px; color: #BB4D1A;">
-    <h2 style="background-color:#162456; padding: 10px; color: #BB4D1A;">Documentacion</h2>
-    <div class="proyecto" style="background-color:#162456; padding: 10px;">
-      <strong>Proyecto 1:</strong> Descripción breve del proyecto.
-      <img src="PNG/1.png" alt="Mi foto" style="width:200px; border-radius:10px; display:block; margin-bottom:15px;" />
+  <section class="section-dark">
+    <h2>GIF</h2>
+    <div class="video-container">
+      <!-- Reemplaza "video/proyecto.mp4" con la ruta a tu video -->
+      <video controls width="600">
+        <source src="GIF DE ELEMENTO DE DESARROLLO DE SOFTWARE.mp4" type="video/mp4">
+        <source src="video/proyecto.webm" type="video/webm">
+        Tu navegador no soporta el elemento de video.
+      </video>
     </div>
-   
-  <section>
-    <h2>Contacto</h2>
-    <p>Email: ejemplo@correo.com</p>
   </section>
+
+  <section class="section-dark">
+    <h2>Diseño</h2>
+    <div class="imagen-container">
+      <img src="IMGS/Home.png" alt="Imagen del proyecto 1" />
+    </div>
+    <div class="imagen-container">
+      <img src="IMGS/Login.png" alt="Imagen del proyecto 2" />
+    </div>
+    <div class="imagen-container">
+      <img src="IMGS/Category.png" alt="Imagen del proyecto 3" />
+    </div>
+    <div class="imagen-container">
+      <img src="IMGS/Cart.png" alt="Imagen del proyecto 4" />
+    </div>
+  </section>
+
+   <section class="section-dark">
+    <h2>Ejecucion</h2>
+    <div class="video-container">
+      <!-- Reemplaza "video/proyecto.mp4" con la ruta a tu video -->
+      <video controls width="600">
+        <source src="Video Ejecucion.mp4" type="video/mp4">
+        <source src="video/proyecto.webm" type="video/webm">
+        Tu navegador no soporta el elemento de video.
+      </video>
+    </div>
+  </section>
+
+
+
+
+
 </body>
 </html>
